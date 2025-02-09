@@ -3,7 +3,7 @@ using StudentsApi.Domain.Enums;
 
 namespace StudentApi.Application.Features.Course.Commands.DTOs;
 
-public class CreateCourseDto
+public class UpsertCourseDto
 {
      public string? CourseName { get; set; }
 

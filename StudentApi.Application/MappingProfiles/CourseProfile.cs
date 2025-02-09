@@ -10,6 +10,6 @@ public class CourseProfile : Profile
      public CourseProfile()
      {
           CreateMap<CourseDto, Course>().ReverseMap();
-          CreateMap<CreateCourseDto, Course>();
+          CreateMap<UpsertCourseDto, Course>();
      }
 }

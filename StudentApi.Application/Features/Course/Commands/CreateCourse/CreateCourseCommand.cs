@@ -5,5 +5,5 @@ namespace StudentApi.Application.Features.Course.Commands.CreateCourse;
 
 public class CreateCourseCommand : IRequest<Guid>
 {
-     CreateCourseDto courseDto;
+     public UpsertCourseDto courseDto;
 }
