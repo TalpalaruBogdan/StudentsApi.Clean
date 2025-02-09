@@ -9,4 +9,6 @@ public class CourseModule : BaseEntity
      public string? Content { get; set; }
 
      public List<string>? Resources { get; set; }
+     
+     public virtual Course? Course { get; set; }
 }

@@ -1,4 +1,5 @@
 using FluentValidation;
+using StudentApi.Application.Contracts.Persistence;
 
 namespace StudentApi.Application.Features.Course.Commands.CreateCourse;
 

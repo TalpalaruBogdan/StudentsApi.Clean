@@ -10,7 +10,7 @@ public interface IGenericRepository<T> where T : class
      
      Task<T> Add(T entity);
      
-     Task<T> Update(Guid Id, T entity);
+     Task Update(Guid Id, T entity);
      
      Task Delete(Guid id);
 }

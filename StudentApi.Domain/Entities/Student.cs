@@ -24,4 +24,6 @@ public class Student : BaseEntity
           DateOfBirth = dateOfBirth;
           RegistrationDate = DateTime.Now;
      }
+     
+     public virtual List<Course> Courses { get; set; } = new();
 }

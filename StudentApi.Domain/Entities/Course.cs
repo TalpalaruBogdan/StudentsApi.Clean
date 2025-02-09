@@ -12,5 +12,5 @@ public class Course : BaseEntity
      
      public CourseType CourseType { get; set; }
 
-     public List<CourseModule>? CourseModules { get; set; }
+     public List<CourseModule>? CourseModules { get; set; } = new ();
 }
